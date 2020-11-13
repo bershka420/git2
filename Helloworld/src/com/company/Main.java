@@ -29,7 +29,7 @@ public class Main {
        // System.out.println(last);
         int[] nums = {1,2,3,4,6,7};
         for(int unt : nums){
-        System.out.println(unt);
+        System.out.println(unt);аааааааааааа
         }
         }}
 
