@@ -28,8 +28,8 @@ public class Main {
        // int last = nums[nums.length-1];
        // System.out.println(last);
         int[] nums = {1,2,3,4,6,7};
-        for(int unt : nums){
-        System.out.println(unt);аааааааааааа
+        for(int unt1 : nums){
+        System.out.println(unt1);
         }
         }}
 
