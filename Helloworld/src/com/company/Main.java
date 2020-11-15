@@ -3,12 +3,34 @@ package com.company;
 
 //import java.util.Scanner;
 
+import java.io.*;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
+       // BufferedReader br = new BufferedReader(new InputStreamReader (System.in));
+        //String s =br.readLine();
 
-  // int[][] nums= new int[][]{ {1,3,3},{4,5,6},{7,8,9}};
+//        try(BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+//             BufferedWriter bw = new BufferedWriter(new FileWriter("notes5.txt")))
+//        {
+//             чтение построчно
+//            String text;
+//            while(!(text=br.readLine()).equals("ESC")){
+//
+//                bw.write(text + "\n");
+//                bw.flush();
+//            }
+//        }
+//        catch(IOException ex){
+//
+//            System.out.println(ex.getMessage());
+//        }
+//
+//         int[][] nums= new int[][]{ {1,3,3},{4,5,6},{7,8,9}};
 
   // for(int i=0; i < nums.length; i++){
   //          for (int k = 0; k < nums.length; k++) {
@@ -16,9 +38,11 @@ public class Main {
   //          }
   //      }
 //________________________ my one programm--------------------
-//        Scanner in = new Scanner(System.in);
-//        System.out.println("vvedite chisilo");
-//        int num=in.nextInt();
+        Scanner in = new Scanner(System.in);
+       System.out.println("vvedite chisilo");
+       int num=in.nextInt();
+        int num2=in.nextInt();
+        System.out.println(num+num2);
 //        switch (num){
 //            case 1:
 //                System.out.println("вы ввели 1");
